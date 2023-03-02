@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+
+	<script>
+		//№1
+		let i = 0;
+		while (++i < 5) alert( i );
+		//От 1 до 4, так как сначала происходит сравнение, а после прибавление. 5 выведена не будет
+
+		//№2
+		let i = 0;
+		while (i++ < 5) alert( i );
+		//От 1 до 5, так как сначала происходит прибавление, а после сравнение. 5 выведется
+
+	</script>
+	
+</body>
+</html>

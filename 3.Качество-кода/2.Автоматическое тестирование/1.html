@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+
+	<script>
+		it("Возводит x в степень n", function() {
+		  let x = 5;
+
+		  let result = x;
+		  assert.equal(pow(x, 1), result);
+
+		  result *= x;
+		  assert.equal(pow(x, 2), result);
+
+		  result *= x;
+		  assert.equal(pow(x, 3), result);
+		});
+
+		// в одну функцию вписаны три теста, которые лучше всего прописать 
+		// отдельными блоками с проверкой каждого
+	</script>
+	
+</body>
+</html>
