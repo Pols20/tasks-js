@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+
+	<script>
+		//вариант с циклом
+		/*function sumTo(n) { 
+			let sum = 0;
+			for (let i = 1; i <= n; i++) {
+				sum += i;
+			}
+			return sum;
+		}*/
+
+		//вариант с рекурсией
+		/*function sumTo(n) { 
+			let sum = 0;
+			if (n < 1) {
+				return sum;
+			} else {
+				return n + sumTo(n-1);
+			}
+		}*/
+
+		//вариант с  использованием формулы арифметической прогрессии
+
+		function sumTo(n) { 
+			return n * (n + 1) / 2
+		}
+
+
+		alert( sumTo(100) );
+	</script>
+	
+</body>
+</html>
